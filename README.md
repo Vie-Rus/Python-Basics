@@ -1,8 +1,8 @@
 # Python Basics
 Written by V I E R U S
 
-# Python Basic-------------------------------------------------------------
-    This program goes into the very basics of python. This includes 
+# Python Basic-----------------------------------------------
+    This program goes into the very basics of python. This includes: 
         - Print: using variables 1-3, print values, casting, and get type
    
         - Multi-Variables: using variables 4-13, Multi-Line string, string array, many values to many variables, one value to many variables, and unpacking a list
@@ -21,7 +21,7 @@ Written by V I E R U S
 ---------------------------------------------------------------------------
 
 
-# ADD LATER Python Functions-------------------------------------------------
+# ADD LATER Python Functions--------------------------------
     This program
         - Lists: 
 
@@ -49,7 +49,7 @@ Written by V I E R U S
 
 ----------------------------------------------------------------------------
 
-# Python Classes-------------------------------------------------------------
+# Python Classes----------------------------------------------
     This program goes into a few class related functions
         - Classes/Object: Create a class/object, __init__() function = MyClass1, Object Method = MyClass2, Modify object properties, delete object 
         
@@ -63,7 +63,7 @@ Written by V I E R U S
 ----------------------------------------------------------------------------
 
 
-# Python Tkinter------------------------------------------------------------
+# Python Tkinter--------------------------------------
     This program opens a GUI in tinker that explains Labels, Buttons, Entry, Check boxes, Radio boxes, Drop-Down boxes, (and new windows) in their own def. Each window size besides main is 600x600. Quit button will terminate GUI.
     
         - Labels: Creating a label and explaing how grid works. Pack shoves the code onto the screen and automatically resizes. Grid will let you organize more, but will not resize.
