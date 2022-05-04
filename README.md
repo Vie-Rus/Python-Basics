@@ -1,7 +1,7 @@
 # Python Basics
 Written by V I E R U S
 
-# Python Basic----------------------------------------------------------------------------------
+# Python Basic-------------------------------------------------------------
     This program goes into the very basics of python. This includes 
         - Print: using variables 1-3, print values, casting, and get type
    
@@ -18,10 +18,10 @@ Written by V I E R U S
         - Def Functions: using variable 32, explains how a function works, value inside the def vs outside the def is different
     
         - User Input: shows how to let the user give an input
------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------
 
 
-# ADD LATER Python Functions---------------------------------------------------------------------
+# ADD LATER Python Functions-------------------------------------------------
     This program
         - Lists: 
 
@@ -47,9 +47,9 @@ Written by V I E R U S
 
 
 
------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------
 
-# Python Classes---------------------------------------------------------------------------
+# Python Classes-------------------------------------------------------------
     This program goes into a few class related functions
         - Classes/Object: Create a class/object, __init__() function = MyClass1, Object Method = MyClass2, Modify object properties, delete object 
         
@@ -60,10 +60,10 @@ Written by V I E R U S
         - Scope: Local scope, calls function within a function, global scope > go back to python basic function for understanding, global keyword to make variable global
 
 
------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------
 
 
-# Python Tkinter----------------------------------------------------------------------------
+# Python Tkinter------------------------------------------------------------
     This program opens a GUI in tinker that explains Labels, Buttons, Entry, Check boxes, Radio boxes, Drop-Down boxes, (and new windows) in their own def. Each window size besides main is 600x600. Quit button will terminate GUI.
     
         - Labels: Creating a label and explaing how grid works. Pack shoves the code onto the screen and automatically resizes. Grid will let you organize more, but will not resize.
@@ -78,6 +78,6 @@ Written by V I E R U S
         - Radio Buttons: Creating a radio button, created a variable (1) for radio variables, def radioClick shows what you selected
     
         - Drop-Down Buttons: Creating a drop-down box, created a variable (1) for dropbox to remember your input, set dropbox to value
------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 
