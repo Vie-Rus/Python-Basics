@@ -21,29 +21,27 @@ Written by V I E R U S
 ---------------------------------------------------------------------------
 
 
-# ADD LATER Python Functions--------------------------------
+# Python Methods Folder-----------------------------------
     This program
-        - Lists: 
+        - Lists: Creating one, Find length, Type, Constructors, access certain item in the list, check if item is in list, Change item in list, add to list, Iterable/Extend list, remove list items, pop/delete/clear, Loops, sort/descend, copy, join list regardless of types.
 
-        - Tuples:  
+        - Tuples: Create a tuple, find length, types, join, contructor, index, change something in tuple, Append/Remove, Loops
         
-        - Sets:  
+        - Sets: Creating a set, length, data type, constructor, access item, check item, add/update, Union/Update, Remove/Discard/Pop/Clear/Del, for loop, Keep/Remove Duplicates 
         
-        - Dictionaries:  
+        - Dictionaries: Creating a dictionary, call specific items, length, data type, find variable by calling on it/get, get keys by get key/key exist, get value, get item, changing or adding value by add/update, removing value by pop/popitem/del/clear, for loop: key one by one/key method/value one by one/value method/both keys and value using item, copy list using copy/dict, nested dictionary
         
-        - If/Else:  
+        - If/Else: If/Else: created an If/Else, Shorthand for If/ELIF/Else, AND, OR, Nested If, variable var1-3
         
-        - While Loops: 
+        - While/For Loops: creating a while loop, Break, Continue, While else / Created a for loop, Loop through a string, Break, Continue, Range, For Loop, Nested Loop, variable myArray, myArray2
+
+        - Functions: created a function, used arguments/parameters, *args, default parameter value, Pass a list/For loop, return value, variables myFunction0-5
         
-        - For Loops:  
+        - Lambda: Creating a lambda, add multiple values, double/triple/etc your value, Variables var1-3, doubleIt
         
-        - Functions:  
+        - Arrays: Creating an Array, access elements, change item, add item, length, for loop, removing using Pop/Remove, variable var1, var2, pets
         
-        - Lambda: 
-        
-        - Arrays:  
-        
-        - Try/Except: 
+        - Try/Except: Created a try/except, NameError, Else Loop, Final, Raise Exception, TypeError
 
 
 
@@ -79,5 +77,3 @@ Written by V I E R U S
     
         - Drop-Down Buttons: Creating a drop-down box, created a variable (1) for dropbox to remember your input, set dropbox to value
 -------------------------------------------------------------------------------
-
-
