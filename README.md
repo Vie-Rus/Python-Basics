@@ -78,7 +78,7 @@ Written by V I E R U S
         - Drop-Down Buttons: Creating a drop-down box, created a variable (1) for dropbox to remember your input, set dropbox to value
 -------------------------------------------------------------------------------
 
-#Python File Folder---------------------------------------
+# Python File Folder---------------------------------------
         - A CSV and Text file are already added to the file.
         - WithOpen: This program goes into the basics of how to open a text/cvs file. Uses loops to read the files.
         - FileTest: has three sections, Section 1 goes into the different ways to read a file, Section 2 goes into writing data to the file, Section 3 goes into creating a new file and deleting a file. 
