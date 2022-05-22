@@ -3,7 +3,7 @@
 import time                                     #for time.sleep to read one at a time
 
 #Opens a text file
-with open("File\TextFile.txt", "r") as txtfile: #Open
+with open("Python-Basics\File\TextFile.txt", "r") as txtfile: #Open
     fileopen = txtfile.read().splitlines()      #Reads the information
     
     #Prints out lines in the text file
@@ -20,7 +20,7 @@ print("\n")
 import csv
 
 #opens CSV File
-with open('File\CVSFile.csv','r') as csvfile:   #Open
+with open('Python-Basics\File\CVSFile.csv','r') as csvfile:   #Open
     csvOpen = csv.reader(csvfile)               #Reads the information
     #next(csvOpen)                              #Skips first line            
     
