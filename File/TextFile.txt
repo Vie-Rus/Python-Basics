@@ -1,0 +1,3 @@
+This is the text we are trying to read.
+This should open and show the data within this file.
+Opening Files and CVS files can be very helpful in python.

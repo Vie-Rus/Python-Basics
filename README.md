@@ -77,3 +77,7 @@ Written by V I E R U S
     
         - Drop-Down Buttons: Creating a drop-down box, created a variable (1) for dropbox to remember your input, set dropbox to value
 -------------------------------------------------------------------------------
+
+#Python File Folder-------------------------------
+        - This program goes into the basics of how to open a text/cvs file without using open().
+        - A CSV file and Text file are already added.
