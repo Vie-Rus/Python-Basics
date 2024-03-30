@@ -49,20 +49,55 @@ Written by V I E R U S in python
         - Scope: Local scope, calls function within a function, global scope > go back to python basic function for understanding, global keyword to make variable global
 
 # Python Tkinter------------------------------------------
-    This program opens a GUI in tinker that explains Labels, Buttons, Entry, Check boxes, Radio boxes, Drop-Down boxes, (and new windows) in their own def. Each window size besides main is 600x600. Quit button will terminate GUI.
-    
-        - Labels: Creating a label and explaing how grid works. Pack shoves the code onto the screen and automatically resizes. Grid will let you organize more, but will not resize.
+    Basics.py
+        This program opens a GUI in tinker that has a series of tabs that go over the basics within tkinter
+        
+        Frame 1: Labels, Buttons, Entry, Check boxes, Radio boxes, Drop-Down boxes. 
+            - Labels: Creating a label and explaing how grid works. Pack shoves the code onto the screen and automatically resizes. Grid will let you organize more, but will not resize.
 
-        - Buttons: Creating a button, how to use state to disable a button, make a button a wacky size using padx/pady, how to make a button have an action using def, changed color of font/button within the button.
+            - Buttons: Creating a button, how to use state to disable a button, make a button a wacky size using padx/pady, how to make a button have an action using def, changed color of font/button within the button.
             NOTE: mybut9 and mybut10 variable are used in Entry.
 
-        - Entry: Creating an entry, making the entry background a color, creating a border width, def Entry get will return output, Entry insert will insert text within the entry box already
+            - Entry: Creating an entry, making the entry background a color, creating a border width, def Entry get will return output, Entry insert will insert text within the entry box already
     
-        - Check Boxs: Creating a check box, created variables for amount of boxes, def isChecked shows variable output
+            - Check Boxs: Creating a check box, created variables for amount of boxes, def isChecked shows variable output
     
-        - Radio Buttons: Creating a radio button, created a variable (1) for radio variables, def radioClick shows what you selected
+            - Radio Buttons: Creating a radio button, created a variable (1) for radio variables, def radioClick shows what you selected
     
-        - Drop-Down Buttons: Creating a drop-down box, created a variable (1) for dropbox to remember your input, set dropbox to value
+            - Drop-Down Buttons: Creating a drop-down box, created a variable (1) for dropbox to remember your input, set dropbox to value
+        
+        Frame 2: LabelFrames
+            How to label and section off certain information along with next and prev tab buttons. These next and prev tab buttons uses .select(framenumber)
+            - LabelFrame: 
+
+        Frame 3: File
+            from tkinter import filedialog
+            - File: 
+
+        Frame 4: New Window Tab
+            - New Window: using a def you can call upon topLevel() to open a second window and add whatever you want from it. Different than Messagebox, topLevel does not come with pre-determined buttons, certain sounds and images.
+
+        Frame 5: Insert an Image
+            from PIL import ImageTK, Image
+            - Image: to inset an image you have to use .PhotoImage
+
+        Frame 6: MessageBoxes
+            from tkinter import messagebox
+            - MessageBox: there are a series of messageboxes to pick from. value:button labels
+                .showinfo        ||  shows 'I-circle' image, returns ok:okay
+                .showwarning     ||  shows '!-triangle' image, returns ok:okay
+                .showerror       ||  shows 'x-circle' image, returns ok:okay
+                .askquestion     ||  shows '?-circle' image, returns returns yes:yes, no:no
+                .askokcancel     ||  shows '?-circle' image, returns 1:Okay, 0:Cancel
+                .askyesno        ||  shows '?-circle' image, returns 1:yes, 0:no
+                .askyesnocancel  ||  shows '?-circle' image, returns 1:yes, 0:no, closes popup:cancel
+                .askretrycancel  ||  shows '!-triangle' image, returns 1:retry, 0:cancel
+
+
+    Image_status.py
+        This is an image viewer program, that allows you to view a set of images, 4. You can press the Next button '>>', previous button '<<', or exit button to leave the program.
+        The images come from the image folder
+        
 
 # File Folder---------------------------------------
         - A CSV and Text file are already added to the file to help with any data you may need in files.py and WithOpen.py
